@@ -15,6 +15,7 @@ This project analyzed retail supply chain sales data to understand performance t
 1. Prioritize Standard Class Shipping, focusing on the high-margin Consumer segment in California, while strategically promoting Technology products and minimizing the impact of Furniture sales.
 2. Re-evaluate discounting strategies, exploring alternative promotional methods to drive sales without significantly impacting profitability.
 3. Conduct a thorough analysis of First Class Shipping costs and explore more cost-effective alternatives, potentially negotiating better rates for Standard Class shipments.
+4. Implement predictive analytics for demand forecasting.
 
 # 2. Introduction
 ## Background
@@ -73,10 +74,11 @@ Technology products were the average top-selling category.
 ## Sales and Profit by State
 - California State demonstrated the highest profit and sales margin.
 
-![download](https://github.com/user-attachments/assets/613dd4fb-c24e-49d3-b657-28bd1db159d5)
+![download](https://github.com/user-attachments/assets/e901bf53-3017-41bc-aced-44b24ee29019)
 
 - Texas demonstrated the least profit and sales margin.
-![download](https://github.com/user-attachments/assets/cb7716f7-9851-4523-8f4e-df0da7213e03)
+
+![download](https://github.com/user-attachments/assets/c7201a33-b403-48fd-8975-def6bff8adab)
 
 ## Sales and Profit by Ship Mode
 - Standard Class demonstrated the highest total profit and sales margin.
@@ -98,8 +100,44 @@ Second Class Ship Mode had the highest profitability of 15.02%
 
 ![download](https://github.com/user-attachments/assets/9bf30cdf-0fe8-4ac1-970b-4c3c9ecf5a83)
 
+## Profitability by Segment
+Home Office had the highest profitability of 14.29%
 
+![download](https://github.com/user-attachments/assets/db7f2fd2-8e44-4f67-8ec3-66cf3569c7fd)
 
+## Profitability by State
+District of Columbia had the highest profitability of	42.20%
 
+![download](https://github.com/user-attachments/assets/cf032463-bcb5-4afe-aaf2-49acb4d431c7)
 
+## Profitability by Category
+Technology had the highest profitability of	15.59%
 
+![download](https://github.com/user-attachments/assets/01238db6-fc01-41a4-a9fe-26ac7286b690)
+
+# 7. Conclusion
+7.1 Recap of Key Findings
+This analysis highlighted critical areas for improvement in sales and supply chain operations. Addressing these inefficiencies can improve profitability, customer satisfaction, and competitive positioning.
+
+## 7.2 Limitations and Future Work
+Limitations include a limited timeframe that might not capture seasonal trends or long-term market fluctuations, which could significantly impact sales and profitability. The data lacks crucial information such as competitor pricing, marketing campaigns, and economic conditions, which significantly influence sales and profitability. Future work could incorporate additional data sources and implement predictive analytics for demand forecasting.
+
+# 8. Appendix
+## 8.1 Data Dictionary
+- Order Date: Date object, date when the order was placed.
+- Ship Date: Date object, date when the order was shipped.
+- Ship Mode: Categorical, shipping method used (e.g., Standard Class, Second Class, First Class, Same Day).
+- Segment: Categorical, customer segment (e.g., Consumer, Corporate, Home Office).
+- City: Categorical, city where the order was shipped.
+- State: Categorical, state where the order was shipped.
+- Category: Categorical, product category (e.g., Furniture, Office Supplies, Technology).
+- Sub-Category: Categorical, specific product sub-category (e.g., Chairs, Phones, Binders).
+- Returned: Categorical, indicates whether the order was returned (Yes/No).
+- Sales: Numeric, total sales amount for the order.
+- Quantity: Numeric, number of units ordered.
+- Discount: Numeric, discount percentage applied to the order.
+- Profit: Numeric, profit generated from the order.
+- Profitability: Calculated, profit margin or profitability percentage (e.g., Profit / Sales).
+
+## 8.2 Technical Details
+Tools Used: Python, Pandas, Seaborn, Matplotlib, Scikit-learn.
