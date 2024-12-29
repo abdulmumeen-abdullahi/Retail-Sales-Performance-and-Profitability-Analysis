@@ -1,4 +1,5 @@
 # Retail Sales Performance and Profitability Analysis
+In case the project file above returns an error, kindly click [HERE](https://nbviewer.org/github/abdulmumeen-abdullahi/Retail-Sales-Performance-and-Profitability-Analysis/blob/main/Retail%20Sales%20Performance%20and%20Profitability%20Analysis.ipynb).
 # 1. Executive Summary
 This project analyzed retail supply chain sales data to understand performance trends, profitability, and supply chain efficiency. The objective was to derive actionable insights to enhance sales, optimize profitability, and improve supply chain operations.
 
