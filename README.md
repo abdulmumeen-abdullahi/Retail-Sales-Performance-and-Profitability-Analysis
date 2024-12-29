@@ -46,22 +46,60 @@ The dataset includes transactional data such as sales, profit, discount rates, s
 - Outliers in sales values were identified and capped to prevent skewing.
 - Order Date values were converted to datetime format.
 
-# 4. Sales Performance Analysis
+# 4. Sales and Profit Performance Analysis
 ## Sales and Profit Trends
 Sales increase massively from 2015 to 2017, as does profit.
 
 ![download](https://github.com/user-attachments/assets/cfef19a1-b858-46e5-8d66-6669e8a5868a)
 
-## Sales by Segment
-Consumer segment accounted for 50.1% of total sales and 42.2% of total profit.
+## Sales and Profit by Segment
+- Consumer segment accounted for 50.1% of total sales and 42.2% of total profit.
+
+![download](https://github.com/user-attachments/assets/409b34c0-c1e5-4e07-975d-c31a83d124a3)
+
+- Corporate segment demonstrated consistent year-round performance with average percentage sales of 34.2%.
 
 ![download](https://github.com/user-attachments/assets/50294adc-8cf4-4b2a-8dcb-f8df2a502c4b)
 
-## Sales by Product Category
-Technology products were the top-selling category.
+## Sales and Profit by Product Category
+Technology products were the average top-selling category.
+
+![download](https://github.com/user-attachments/assets/5fa12b0a-eb7e-4fe5-a253-88203c10d050)
+
+- Furniture had the highest sales over the years.
+
+![download](https://github.com/user-attachments/assets/493a8e3b-ba4a-4a7c-96b7-103ce5a41abe)
+
+## Sales and Profit by State
+- California State demonstrated the highest profit and sales margin.
+
+![download](https://github.com/user-attachments/assets/613dd4fb-c24e-49d3-b657-28bd1db159d5)
+
+- Texas demonstrated the least profit and sales margin.
+![download](https://github.com/user-attachments/assets/cb7716f7-9851-4523-8f4e-df0da7213e03)
+
+## Sales and Profit by Ship Mode
+- Standard Class demonstrated the highest total profit and sales margin.
+
+![download](https://github.com/user-attachments/assets/ba48c56a-32bf-4c74-8974-974784d85e28)
+
+- Second Class demonstrated the highest average profit and sales margin.
+
+![download](https://github.com/user-attachments/assets/b2d4a707-55de-48b3-990f-5ebbe580a022)
+
+# 5. Return Rate Distribution
+The business experienced a return rate of 8%, with 799 out of the 9979 orders placed returned.
+
+![download](https://github.com/user-attachments/assets/d5e049bc-a3fb-4981-81c8-51f416d13ad4)
+
+# 6. Profitability Analysis
+## Profitability by Ship Mode
+Second Class Ship Mode had the highest profitability of 15.02%
+
+![download](https://github.com/user-attachments/assets/9bf30cdf-0fe8-4ac1-970b-4c3c9ecf5a83)
 
 
-Furniture had the highest average sales per transaction but lowest turnover.
-Sales by Region/Location
-East region outperformed other regions in sales volume but had lower profit margins.
-South region demonstrated steady growth and higher customer retention.
+
+
+
+
