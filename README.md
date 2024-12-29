@@ -12,10 +12,11 @@ This project analyzed retail supply chain sales data to understand performance t
 - Discount strategies demonstrated a weak negative correlation with sales.
 
 ## Recommendations:
-1. Prioritize Standard Class Shipping, focusing on the high-margin Consumer segment in California, while strategically promoting Technology products and minimizing the impact of Furniture sales.
-2. Re-evaluate discounting strategies, exploring alternative promotional methods to drive sales without significantly impacting profitability.
-3. Conduct a thorough analysis of First Class Shipping costs and explore more cost-effective alternatives, potentially negotiating better rates for Standard Class shipments.
-4. Implement predictive analytics for demand forecasting.
+1. Leverage the strong Sales-Profit correlation to prioritize strategies that increase overall sales.
+2. Prioritize Standard Class Shipping, focusing on the high-margin Consumer segment in California, while strategically promoting Technology products and minimizing the impact of Furniture sales.
+3. Re-evaluate discounting strategies, exploring alternative promotional methods to drive sales without significantly impacting profitability.
+4. Conduct a thorough analysis of First Class Shipping costs and explore more cost-effective alternatives, potentially negotiating better rates for Standard Class shipments.
+5. Implement predictive analytics for demand forecasting.
 
 # 2. Introduction
 ## Background
@@ -115,15 +116,22 @@ Technology had the highest profitability of	15.59%
 
 ![download](https://github.com/user-attachments/assets/01238db6-fc01-41a4-a9fe-26ac7286b690)
 
-# 7. Conclusion
-7.1 Recap of Key Findings
+# 7. Correlation Analysis
+The correlation heatmap reveals a strong positive correlation between Sales and Profit (0.35), indicating that as sales increase, profit generally increases as well. However, there's a negative correlation between Discount and Profit (-0.27), suggesting that higher discounts tend to be associated with lower profits. Quantity and Sales show a moderate positive correlation (0.25), while the relationship between Quantity and Profit is weaker (0.07).
+
+![download](https://github.com/user-attachments/assets/62d01a06-b870-4e2a-b4d2-16651a41689d)
+
+![download](https://github.com/user-attachments/assets/63a12e5e-0b27-4633-a2bc-e31e68d32738)
+
+# 8. Conclusion
+## 8.1 Recap of Key Findings
 This analysis highlighted critical areas for improvement in sales and supply chain operations. Addressing these inefficiencies can improve profitability, customer satisfaction, and competitive positioning.
 
-## 7.2 Limitations and Future Work
+## 8.2 Limitations and Future Work
 Limitations include a limited timeframe that might not capture seasonal trends or long-term market fluctuations, which could significantly impact sales and profitability. The data lacks crucial information such as competitor pricing, marketing campaigns, and economic conditions, which significantly influence sales and profitability. Future work could incorporate additional data sources and implement predictive analytics for demand forecasting.
 
-# 8. Appendix
-## 8.1 Data Dictionary
+# 9. Appendix
+## 9.1 Data Dictionary
 - Order Date: Date object, date when the order was placed.
 - Ship Date: Date object, date when the order was shipped.
 - Ship Mode: Categorical, shipping method used (e.g., Standard Class, Second Class, First Class, Same Day).
@@ -139,5 +147,5 @@ Limitations include a limited timeframe that might not capture seasonal trends o
 - Profit: Numeric, profit generated from the order.
 - Profitability: Calculated, profit margin or profitability percentage (e.g., Profit / Sales).
 
-## 8.2 Technical Details
+## 9.2 Technical Details
 Tools Used: Python, Pandas, Seaborn, Matplotlib, Scikit-learn.
